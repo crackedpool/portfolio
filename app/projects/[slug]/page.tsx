@@ -19,9 +19,9 @@ export default async function Page({
     <div className={`flex max-[630px]:flex-col gap-2 justify-between`}>
       <div className='max-[630px]:flex hidden flex-col relative gap-3'>
         <div className='inf flex flex-col gap-1 p-6 bg-[var(--cement)] text-[var(--carbon)]'>
-          <div className='flex mb-5 gap-2 justify-between items-center'>
+          <div className='flex mb-5 text-[18px] leading-[1.1] gap-2 flex-col'>
             <div>{project.name}</div>
-            <div className='mr-4'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
+            <div className='mr-4 text-[14px]'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
           </div>
           <div className='flex justify-between items-center'>
             {project.role ? (
@@ -75,9 +75,9 @@ export default async function Page({
       ) : null}
       <div className='w-1/2 max-[630px]:hidden flex flex-col relative gap-3'>
         <div className='inf flex flex-col gap-1 p-6 bg-[var(--cement)] text-[var(--carbon)]'>
-          <div className='flex mb-5 text-[16px] gap-2 justify-between items-center'>
+          <div className='flex mb-5 text-[18px] gap-2 justify-between items-center'>
             <div>{project.name}</div>
-            <div className='mr-4'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
+            <div className='mr-4 text-[12px]'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
           </div>
           <div className='flex justify-between items-center'>
             {project.role ? (
