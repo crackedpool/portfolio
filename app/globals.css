@@ -10,36 +10,28 @@
 }
 
 :root {
-  /* --text-color: #3b3b41; */
-  --text-color: #000;
-  --background-color: #fff;
-  --link-color: #0070f3;
-  --button-bg: #000;
-  --btntxt-color: #fff;
-  --cement: #c0c0c0;
-  --carbon: #222222;
-  --clay: #6c6c58;
-}
+  --link: #0070f3;
+  --bg: #031219;
+  --snd-bg: #002c38;
+  --title: #258bd3;
+  --hover: #002c38;
+  --cement: #808f91;
+  --border: #002c38;
+  --cyan: #28a298;
+  --orange: #b74616;
 
-[data-theme="dark"] {
-  --text-color: rgba(255, 255, 255, 0.8);
-  --background-color: #000;
-  --link-color: #0070f3;
-  --border-color: #333333;
-  --button-bg: #fff;
-  --btntxt-color: #000
 }
 
 html {
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   overflow-y: scroll;
 }
 
 body {
   height: 100%;
   margin: 0;
-  background: var(--carbon);
+  background: var(--bg);
   color: var(--cement);
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
@@ -47,7 +39,7 @@ body {
 }
 
 * {
-  border-color: var(--clay);
+  border-color: var(--border);
   box-sizing: border-box;
 }
 
@@ -66,7 +58,7 @@ body {
 
 #keeb {
   white-space: pre;
-  color: var(--clay);
+  color: var(--cyan);
   line-height: 1.2;
 }
 
@@ -83,7 +75,7 @@ body {
 .inf {
   --notch: 48px;
   clip-path: polygon(0 0, calc(100% - var(--notch)) 0, 100% var(--notch), 100% 100%, 0 100%, 0 0);
-  background-color: var(--cement);
+  background-color: var(--snd-bg);
 }
 
 @keyframes fadeIn {
@@ -100,18 +92,21 @@ body {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-@media only screen and (max-width: 630px) {
-  body {
-    font-size: 14px;
-  }
+.ph {
+  display: none;
+}
 
+@media only screen and (max-width: 630px) {
   .concol {
     padding: 20px;
   }
 
-  .procon {
-    width: 100%;
-    flex-direction: column;
+  .pc {
+    display: none;
+  }
+
+  .ph {
+    display: flex;
   }
 
   .w-1\/2 {

@@ -26,7 +26,7 @@ export default function Home() {
           {/*   <foreignObject x="68" y="0" width="875" height="648"> */}
           {/*   </foreignObject> */}
           {/* </svg> */}
-          <div className="font-depMon uppercase text-[16px] text-left">
+          <div className="text-[var(--title)] font-depMon uppercase text-[16px] text-left">
             Abdulaziz Rakhmatullaev
           </div>
           {/* <div className="flex gap-2"> */}
@@ -103,7 +103,7 @@ export default function Home() {
           {/* </div> */}
         </div>
         <div className="text-left my-6">
-          Also known as a YouTuber - <Link href={'https://www.youtube.com/@Crackedpool/videos'} className="text-[var(--clay)] hover:text-[var(--cement)]">Crackedpool</Link>.
+          Also known as <Link href={'https://www.youtube.com/@Crackedpool/videos'} className="text-[var(--title)] hover:underline">Crackedpool</Link>.
           <br />
           I&lsquo;m a Data Engineer & Software Engineer crafting sleek,
           high-performing websites and robust database solutions. I specialize in
@@ -111,9 +111,9 @@ export default function Home() {
           designs, and optimized systems. I bring precision, creativity, and
           efficiency to every project.
         </div>
-        <div className="procon flex items-start border-x">
+        <div className="pc flex items-start border-x">
           <div className="projs w-1/2 cursor">
-            <div className="px-2 py-1 border-b border-r">
+            <div className="px-2 text-[var(--title)] py-1 border-b border-r">
               Projects ✧
             </div>
             <div className="flex flex-col py-1 border-r gap-1 lnks">
@@ -121,7 +121,7 @@ export default function Home() {
                 <Link
                   key={proj.slug}
                   href={`projects/${proj.slug}`}
-                  className="px-2 hover:bg-cyan-400/20"
+                  className="px-2 hover:bg-[var(--hover)]"
                 >
                   {proj.name}
                 </Link>
@@ -129,31 +129,31 @@ export default function Home() {
             </div>
           </div>
           <div className="cont w-1/2">
-            <div className="px-2 py-1 border-b">
+            <div className="text-[var(--title)] px-2 py-1 border-b">
               Contact ↗
             </div>
             <div className="*:px-2 py-1 flex gap-1 flex-col lnks">
               <Link
                 href="mailto:rakhmatullaevabdulaziz@gmail.com"
-                className="hover:bg-green-500/20"
+                className="hover:bg-[var(--hover)]"
               >
                 Email
               </Link>
               <Link
                 href="https://www.linkedin.com/in/abdulaziz-rakhmatullaev/"
-                className="hover:bg-green-500/20"
+                className="hover:bg-[var(--hover)]"
               >
                 Linkedin
               </Link>
               <Link
                 href="https://github.com/Crackedpool"
-                className="hover:bg-green-500/20"
+                className="hover:bg-[var(--hover)]"
               >
                 Github
               </Link>
               <Link
                 href="https://t.me/AbdulazizRakhmatullaev"
-                className="hover:bg-green-500/20"
+                className="hover:bg-[var(--hover)]"
               >
                 Telegram
               </Link>
@@ -167,10 +167,66 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <pre className="mt-9 whitespace-pre leading-[1.3] font-depMon">
-          ░ And He is the Forgiving, the Loving
+        <div className="ph flex flex-col gap-5">
+          <div className="">
+            <div className="px-2 text-[var(--title)] py-1 border-x border-b">
+              Projects ✧
+            </div>
+            <div className="flex flex-col py-1 gap-1 lnks border-x">
+              {projs.map((proj) => (
+                <Link
+                  key={proj.slug}
+                  href={`projects/${proj.slug}`}
+                  className="px-2 hover:bg-[var(--hover)]"
+                >
+                  {proj.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="">
+            <div className="text-[var(--title)] px-2 py-1 border-b border-x">
+              Contact ↗
+            </div>
+            <div className="*:px-2 py-1 flex gap-1 flex-col lnks border-x">
+              <Link
+                href="mailto:rakhmatullaevabdulaziz@gmail.com"
+                className="hover:bg-[var(--hover)]"
+              >
+                Email
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/abdulaziz-rakhmatullaev/"
+                className="hover:bg-[var(--hover)]"
+              >
+                Linkedin
+              </Link>
+              <Link
+                href="https://github.com/Crackedpool"
+                className="hover:bg-[var(--hover)]"
+              >
+                Github
+              </Link>
+              <Link
+                href="https://t.me/AbdulazizRakhmatullaev"
+                className="hover:bg-[var(--hover)]"
+              >
+                Telegram
+              </Link>
+              {/* <Link */}
+              {/*   href="/resume.pdf" */}
+              {/*   className="flex justify-between items-center hover:opacity-50" */}
+              {/* > */}
+              {/*   <div>Resume</div> */}
+              {/*   <div>↗</div> */}
+              {/* </Link> */}
+            </div>
+          </div>
+        </div>
+        <pre className="mt-9 text-[var(--cyan)] whitespace-pre leading-[1.3] font-depMon">
+          ░ Allahu Akbar, SubhanAllah, La ilaha illallah.
           <br />
-          ░ Quran 85:14
+          ░ Return to Allah, before it&apos;s too late.
         </pre>
       </div>
       <pre id="keeb" className="font-depMon w-1/2 absolute right-0">

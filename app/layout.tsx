@@ -37,7 +37,6 @@ export default function RootLayout({
               <div className="select-none concol">
                 {children}
                 <Analytics />
-
               </div>
             </main>
           </PageWrapper>
