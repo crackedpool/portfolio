@@ -79,7 +79,7 @@ export default async function Page({
       ) : null}
       <div className='w-1/2 max-[630px]:hidden flex flex-col relative gap-3'>
         <div className='inf flex flex-col gap-1 p-6 bg-[var(--cement)] text-[var(--carbon)]'>
-          <div className='flex mb-5 text-[17px] gap-2 justify-between items-center'>
+          <div className='flex mb-5 text-[15px] gap-2 justify-between items-center'>
             <div>{project.name}</div>
             <div className='mr-8 text-sm'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
           </div>
