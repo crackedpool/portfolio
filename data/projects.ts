@@ -3,7 +3,7 @@ export const projs = [
     slug: "Dreamcoin",
     name: "Dreamcoin",
     description: "A crypto mini-app integrated within Telegram, called Dreamcoin, where you can upgrade your character, complete tasks and join giveaways and most importantly earn token $DC",
-    images: ['/dreamcoin/2.png', '/dreamcoin/3.png', '/dreamcoin/4.png', '/dreamcoin/5.png'],
+    images: ['/dreamcoin/2.PNG', '/dreamcoin/3.PNG', '/dreamcoin/4.PNG', '/dreamcoin/5.PNG'],
     device: "phone",
     role: "Frontend Developer",
     emp_type: "Full-time",

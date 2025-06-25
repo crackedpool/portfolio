@@ -223,7 +223,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <pre className="mt-9 text-[var(--cyan)] whitespace-pre leading-[1.3] font-depMon">
+        <pre className="mt-9 text-[12px] text-[var(--cyan)] whitespace-pre leading-[1.3] font-depMon">
           ░ Allahu Akbar, SubhanAllah, La ilaha illallah.
           <br />
           ░ Return to Allah, before it&apos;s too late.
