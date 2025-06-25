@@ -21,7 +21,7 @@ export default async function Page({
         <div className='inf flex flex-col gap-1 p-6 bg-[var(--cement)] text-[var(--carbon)]'>
           <div className='flex mb-5 text-[16px] gap-2 justify-between items-center'>
             <div>{project.name}</div>
-            <div className='mr-4'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
+            <div className='mr-4 text-[12px]'>{projs.findIndex((p) => p.slug === slug) + 1} / {projs.length}</div>
           </div>
           <div className='flex justify-between items-center'>
             {project.role ? (
