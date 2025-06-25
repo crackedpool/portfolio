@@ -31,7 +31,7 @@ export const projs = [
     slug: "crackedzone",
     name: "Crackedzone",
     description: "A crypto mini-app integrated within Telegram, enabling users to earn a token called $CZ, designed to hold unique value in the crypto ecosystem.The app allows users to begin accumulating $CZ tokens. Key features include a base dashboard, mission-based tasks, a store offering real in-game NFTs purchasable with TON directly through Telegram, a squad system for inviting friends, and a ranking page to track user performance and engagement.",
-    images: ["/crkdzone/1.png", "/crkdzone/2.png", "/crkdzone/3.png", "/crkdzone/4.png", "/crkdzone/5.png", "/crkdzone/6.png"],
+    images: ["/crkdzone/1.png", "/crkdzone/2.png", "/crkdzone/3.png", "/crkdzone/4.png", "/crkdzone/5.png", "/crkdzone/6.PNG"],
     device: "phone",
     tech_stack: "NextJS, React, TypeScript, Tailwind CSS",
     role: "founder",
