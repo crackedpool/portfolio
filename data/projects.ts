@@ -1,15 +1,4 @@
 export const projs = [
-  // {
-  //   slug: "Dreamcoin",
-  //   name: "Dreamcoin",
-  //   description: "A crypto mini-app integrated within Telegram, called Dreamcoin, where you can upgrade your character, complete tasks and join giveaways and most importantly earn token $DC",
-  //   images: ['/dreamcoin/2.PNG', '/dreamcoin/3.PNG', '/dreamcoin/4.PNG', '/dreamcoin/5.PNG'],
-  //   device: "phone",
-  //   role: "Frontend Developer",
-  //   emp_type: "Full-time",
-  //   tech_stack: "Vite, React, TypeScript",
-  //   dur: "Jun 2025 - Present"
-  // },
   {
     slug: "maab",
     name: 'MAAB',
@@ -38,8 +27,8 @@ export const projs = [
     dur: "Feb 2024 - March 2025"
   },
   {
-    slug: "faceid",
-    name: "FaceID HM",
+    slug: "hotelfaceid",
+    name: "HotelFaceID",
     description: 'A FaceID-based check-in and check-out system for hotels, implemented in less than a day using the open-source OpenCV (opencv-python) and DeepFace libraries. The system automates guest registration and departure processes by leveraging real-time facial recognition, enhancing both security and operational efficiency.',
     images: ["/fcid/01.jpeg", "/fcid/02.jpeg", "/fcid/03.jpeg", "/fcid/04.jpeg", "/fcid/05.jpeg"],
     role: "Software Engineer",
