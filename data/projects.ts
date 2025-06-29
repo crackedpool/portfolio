@@ -41,7 +41,7 @@ export const projs = [
     name: "Flight Centre Travel Group",
     description: `
             1 - Ingested heterogeneous databases from variety of source systems using ADF.
-            \n2 - Identified inefficiencies in pipelines and procedures, and made recommendations for corrections deminishing proccess time by as much as 24%.
+            2 - Identified inefficiencies in pipelines and procedures, and made recommendations for corrections deminishing proccess time by as much as 24%.
             3. Improved the efficiency of data fetching using indexing and query optimization`,
     role: "Data Engineer",
     emp_type: "Contract",

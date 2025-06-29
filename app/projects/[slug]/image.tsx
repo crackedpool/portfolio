@@ -14,7 +14,7 @@ const IMG: React.FC<ImgProps> = ({ src, name, index }) => {
   return (
     <div className="relative">
       {loading && (
-        <div className="absolute inset-y-0 bg-[var(--snd-bg)] text-xs w-full flex items-center justify-center">
+        <div className="absolute inset-y-0 bg-[var(--snd-bg)] h-full w-full flex items-center justify-center">
           <div className='h-[27px] w-[27px] animate-spin'>
             <svg height="100%" viewBox="0 0 32 32" width="100%">
               <circle cx="16" cy="16" fill="none" r="14" strokeWidth="2" style={{ stroke: 'var(--cement)', opacity: '0.2' }}></circle>
